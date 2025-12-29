@@ -1,0 +1,21 @@
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  font-size: 7em;
+  background-color: rgba(245, 245, 220, 0.336);
+  backdrop-filter: blur(2px);
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(229, 207, 207);
+}
+
+body {
+  background-color: black;
+}
